@@ -1,6 +1,7 @@
 sudo: required
 services:
 	- docker
+	
 script:
 	- docker build -t devopskani/node_api .
 	- docker images devopskani/node_api
